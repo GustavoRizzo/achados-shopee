@@ -23,7 +23,8 @@ export default function ExampleList() {
                             return item    // se busca vazia, retorna todos os resultados
                         else {
                             const fields_that_should_be_searched = `${item.first_name} ${item.gender}`; // junta os campos que devem ser pesquisados
-                            return fields_that_should_be_searched.toLowerCase().includes(query);
+                            const isMatch = new RegExp(query, 'ig').test(fields_that_should_be_searched);
+                            return isMatch ? item : null ;
                         }
                     })                
                     .map((item, index) => (

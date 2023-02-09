@@ -25,11 +25,7 @@ export default function ExampleList2() {
                         }
                     })                
                     .map((item, index) => (
-                        <div className={style.card} key={index}
-                            animate={{ opacity: 1 }}
-                            initial={{ opacity: 0 }}
-                            exit={{ opacity: 0 }}
-                        >
+                        <div className={style.card} key={index}>
                             <h3>{item.first_name}</h3>
                             <span>{item.gender}</span>
                         </div>

@@ -28,10 +28,14 @@ export default function ExampleList2() {
                             // só para teste
                             /*if(item.first_name.toLowerCase().includes(query)) {
                                 console.log(item.first_name.toLowerCase().includes(query), " -log de quando as plavras setisfazem a filtragem. query=", query, " ,nome= ", item.first_name);
-                            }*/
-                            
+                            }
                             console.log(item.first_name.toLowerCase().includes(query), " -log de quando as plavras setisfazem a filtragem. query=", query, " ,nome= ", item.first_name);
                             return item.first_name.toLowerCase().includes(query);
+                            */
+                            
+                            let isMatch = new RegExp(query, 'ig').test(item.first_name);
+                            console.log(isMatch, " -log de quando as plavras setisfazem a filtragem. query=", query, " ,nome= ", item.first_name);
+                            return isMatch ? item : null ;
                         }
                     })                
                     .map((item, index) => (

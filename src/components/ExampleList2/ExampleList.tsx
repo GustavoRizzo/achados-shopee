@@ -1,9 +1,8 @@
 import style from './style.module.scss';
 import mockupData from '../../api/mockupData.json';
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 
-export default function ExampleList() {
+export default function ExampleList2() {
 
     const listPeople = mockupData;
 
@@ -15,8 +14,7 @@ export default function ExampleList() {
             <h2>Busque uma pessoa</h2>
             <input placeholder='Digite um nome' onChange={event => setQuery(event.target.value)} />
 
-            <motion.div className={style.list}>
-                <AnimatePresence>
+            <div className={style.list}>
                     {listPeople
                     .filter((item) =>{
                         if (query.toLowerCase() === '')
@@ -27,17 +25,16 @@ export default function ExampleList() {
                         }
                     })                
                     .map((item, index) => (
-                        <motion.div className={style.card} key={index}
+                        <div className={style.card} key={index}
                             animate={{ opacity: 1 }}
                             initial={{ opacity: 0 }}
                             exit={{ opacity: 0 }}
                         >
                             <h3>{item.first_name}</h3>
                             <span>{item.gender}</span>
-                        </motion.div>
+                        </div>
                     ))}
-                </AnimatePresence>
-            </motion.div>
+            </div>
 
         </>
     );

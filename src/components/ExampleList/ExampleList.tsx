@@ -5,6 +5,7 @@ import { useState } from 'react';
 export default function ExampleList() {
 
     const listPeople = mockupData;
+
     const [query, setQuery] = useState("");
     console.log(query);
 
@@ -17,9 +18,12 @@ export default function ExampleList() {
             <ul className={style.list}>
                 {listPeople
                 .filter((item) =>{
-                    return query.toLowerCase() === ''
-                        ? item    // se busca vazia, retorna todos os resultados
-                        : item.first_name.toLowerCase().includes(query);
+                    if (query.toLowerCase() === '')
+                        return item    // se busca vazia, retorna todos os resultados
+                    else {
+                        const fields_that_should_be_searched = `${item.first_name} ${item.gender}`;
+                        return fields_that_should_be_searched.toLowerCase().includes(query);
+                    }
                 })                
                 .map((item, index) => (
                     <li className={style.card} key={index}>

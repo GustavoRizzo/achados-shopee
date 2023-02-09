@@ -19,6 +19,7 @@ export default function ExampleList2() {
             <div className={style.list}>
                     {listPeople
                     .filter((item) =>{
+                        console.log('entrou no filtro, resultado do teste vazio= ', query.toLowerCase() === '');
                         if (query.toLowerCase() === '')
                             return item    // se busca vazia, retorna todos os resultados
                         else {

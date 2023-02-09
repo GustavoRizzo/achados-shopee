@@ -26,9 +26,11 @@ export default function ExampleList2() {
                             //const fields_that_should_be_searched = `${item.first_name} ${item.gender}`; // junta os campos que devem ser pesquisados
                             
                             // só para teste
-                            if(item.first_name.toLowerCase().includes(query)) {
-                                console.log("log de quando as plavras setisfazem a filtragem. query=", query, " ,nome= ", item.first_name);
-                            }
+                            /*if(item.first_name.toLowerCase().includes(query)) {
+                                console.log(item.first_name.toLowerCase().includes(query), " -log de quando as plavras setisfazem a filtragem. query=", query, " ,nome= ", item.first_name);
+                            }*/
+                            
+                            console.log(item.first_name.toLowerCase().includes(query), " -log de quando as plavras setisfazem a filtragem. query=", query, " ,nome= ", item.first_name);
                             return item.first_name.toLowerCase().includes(query);
                         }
                     })                

@@ -8,7 +8,6 @@ export default function ExampleList() {
     const listPeople = mockupData;
 
     const [query, setQuery] = useState("");
-    console.log(query);
 
     return (
         <>
@@ -17,9 +16,9 @@ export default function ExampleList() {
             <input placeholder='Digite um nome' onChange={event => setQuery(event.target.value)} />
 
             <motion.div className={style.list}>
-                <AnimatePresence>
+                { /*<AnimatePresence>*/ }
                 {listPeople
-                .filter((item) =>{
+                    .filter((item) =>{
                         if (query.toLowerCase() === '')
                             return item    // se busca vazia, retorna todos os resultados
                         else {
@@ -37,7 +36,7 @@ export default function ExampleList() {
                             <span>{item.gender}</span>
                         </motion.div>
                     ))}
-                </AnimatePresence>
+                { /*</AnimatePresence>*/}
             </motion.div>
 
         </>

@@ -1,6 +1,6 @@
 :root {
-  --color: rgba(255, 255, 255, 0.87);
-  --color--background: #242424;
+  --color: rgba(22, 22, 22, 0.87); 
+  --color--background: #EBEAEF;
   --color--hiperlink: #646cff;
   --color--hiperlink--hover: #535bf2;
   --font--family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

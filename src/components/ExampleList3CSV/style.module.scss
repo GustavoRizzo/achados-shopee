@@ -1,0 +1,63 @@
+:root {
+    --color-price: #fb7800;
+    --background-color-card: #FFFFFF;
+  }
+
+.header{
+    h1 {
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+}
+
+.grid_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 1rem 5%;
+}
+
+.card {
+    background-color: var(--background-color-card);
+    overflow: hidden;
+    border-radius: 5%;
+    box-shadow: rgb(197 197 197) 5px 5px 5px;
+    text-align: initial;
+
+ img{
+   width: 100%;
+   aspect-ratio: 1/1;
+ }
+
+ .title{
+    -webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+    margin: 8px;
+ }
+
+ .card__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+
+    .price {
+        color: var(--color-price);
+        font-weight: 600;
+     }
+
+    .link {
+        background-color: aquamarine;
+        border-radius: 15%;
+        padding: 5px;
+        color: black;
+        font-size: 0.9rem;
+    }
+ }
+
+
+
+}
+

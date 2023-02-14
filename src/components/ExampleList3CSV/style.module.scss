@@ -1,9 +1,9 @@
 :root {
     --color-price: #fb7800;
     --background-color-card: #FFFFFF;
-  }
+}
 
-.header{
+.header {
     h1 {
         font-size: 3rem;
         margin: 1rem 0;
@@ -20,44 +20,61 @@
 .card {
     background-color: var(--background-color-card);
     overflow: hidden;
-    border-radius: 5%;
+    border-radius: 10px;
     box-shadow: rgb(197 197 197) 5px 5px 5px;
+    //box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
     text-align: initial;
 
- img{
-   width: 100%;
-   aspect-ratio: 1/1;
- }
-
- .title{
-    -webkit-line-clamp: 2;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
-    margin: 8px;
- }
-
- .card__bottom{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px;
-
-    .price {
-        color: var(--color-price);
-        font-weight: 600;
-     }
-
-    .link {
-        background-color: aquamarine;
-        border-radius: 15%;
-        padding: 5px;
-        color: black;
-        font-size: 0.9rem;
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1/1;
+        background-color: rgb(255, 102, 51, .4);
+        opacity: .9;
     }
- }
 
+    .title {
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin: 8px;
+    }
 
+    .card__bottom {
+        display: grid;
+        align-items: center;
+        padding: 8px;
+        gap: 5px;
 
+        .text_price {
+            display: flex;
+            align-items: center;
+            color: var(--color-price);
+            padding-bottom: 8px;
+
+            &__preprice {
+                font-size: 12px;
+                margin-right: 3px;
+                ;
+            }
+
+            &__price {
+
+                font-weight: 600;
+            }
+        }
+
+        .link {
+            border-radius: 7px;
+            padding: 5px;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    }
 }
 
+.color_shoppe {
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+    color:#FFFFFF;
+}

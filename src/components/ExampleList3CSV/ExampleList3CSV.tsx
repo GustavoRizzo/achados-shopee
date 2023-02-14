@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import csvjson from '../../api/csvjson.json';
 import { IProduto } from '../../types/IProduct';
+import icon_discount from '../../assets/icon_discount3.png';
 
 
 export default function ExampleList3CSV() {
@@ -40,12 +41,24 @@ export default function ExampleList3CSV() {
                                 initial={{ opacity: 0 }}
                                 exit={{ opacity: 0 }}
                             >
-                                <img  src={item.link_img} alt='image product'></img>
+                                
+                                <img  
+                                    src={item.link_img}
+                                    onError={({ currentTarget }) => {
+                                        currentTarget.onerror = null; // prevents looping
+                                        currentTarget.src=icon_discount;
+                                    }}
+                                    alt='image product' 
+                                    loading="lazy"
+                                />
                                 <h2 className={style.title}>{formatingTitleProduct(item)}</h2>
                                 <div className={style.card__bottom}>
-                                    <div className={style.price}>R$ {item.Preco_Base}</div>
-                                    <a className={style.link} href={item.Link_Afiliado_1}>link</a>
-                                    <a className={style.link} href={item.Link_Afiliado_2}>link</a>
+                                    <div className={style.text_price}>
+                                        <div className={style.text_price__preprice}>Menor preço</div>
+                                        <div className={style.text_price__price}>R$ {item.Preco_Base}</div>
+                                    </div>                                
+                                    <a className={`${style.link} ${style.color_shoppe}`} href={item.Link_Afiliado_1}>Shopee 1</a>
+                                    <a className={`${style.link} ${style.color_shoppe}`} href={item.Link_Afiliado_2}>Shopee 2</a>
                                 </div>
                                 
                             </motion.div>

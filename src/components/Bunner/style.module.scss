@@ -1,0 +1,13 @@
+.bunner {
+    display: grid;
+    justify-content: center;
+    width: fit-content;
+    overflow: hidden;
+
+    img {
+        min-height: 250px;  // Altura minima que você quer que o seu bunner tenha 
+        max-width: 100%;
+        object-fit: cover;
+        background-color: #D83A20;
+    }
+}

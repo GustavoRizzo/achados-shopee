@@ -17,7 +17,7 @@ export default function ExampleList3CSV() {
     });
 
     return (
-        <>
+        <section className={style.section}>
             <div className={style.header}>
                 <h1>Todos os Produtos</h1>
                 <input placeholder='Busque Pelo Produto' onChange={event => setQuery(event.target.value)} />
@@ -66,6 +66,6 @@ export default function ExampleList3CSV() {
                 </AnimatePresence>
             </motion.div>
 
-        </>
+        </section>
     );
 }

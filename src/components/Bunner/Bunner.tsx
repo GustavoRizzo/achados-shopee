@@ -6,14 +6,11 @@ import { motion } from 'framer-motion';
 export default function ExampleList3CSV() {
     return (
         <section className={style.bunner}>
-            <motion.div>
-                <img
-                    src={bunner_250} 
-                    srcSet= { `${bunner_250} 950w, ${bunner_500} 1280w` }                
-                    alt='initial bunner'
-                    height='250px'
-                />
-            </motion.div>
+            <img
+                src={bunner_250} 
+                srcSet= { `${bunner_250} 950w, ${bunner_500} 1280w` }                
+                alt='initial bunner'
+            />
         </section>
     );
 }

@@ -8,7 +8,12 @@ export default function ExampleList3CSV() {
             <img
                 src={bunner_500} 
                 srcSet= { `${bunner_250} 950w, ${bunner_500} 1280w` }                
-                alt='initial bunner' 
+                alt='initial bunner'                
+                onError={({ currentTarget }) => {
+                    currentTarget.onerror = null; // prevents looping
+                    currentTarget.src=bunner_250;
+                }}
+                loading="lazy"
             />
         </section>
     );

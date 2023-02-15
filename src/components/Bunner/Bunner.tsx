@@ -8,14 +8,10 @@ export default function ExampleList3CSV() {
         <section className={style.bunner}>
             <motion.div>
                 <img
-                    src={bunner_500} 
+                    src={bunner_250} 
                     srcSet= { `${bunner_250} 950w, ${bunner_500} 1280w` }                
-                    alt='initial bunner'                
-                    onError={({ currentTarget }) => {
-                        currentTarget.onerror = null; // prevents looping
-                        currentTarget.src=bunner_250;
-                    }}
-                    loading="lazy"
+                    alt='initial bunner'
+                    height='250px'
                 />
             </motion.div>
         </section>

@@ -16,6 +16,18 @@ export default function ExampleList3CSV() {
         return `${product.id} ${product.Produto}`;
     });
 
+    const tryRequestImgWidth150px = ((url_img:string) => {
+        var searchStr = '.jpg';
+        var index = url_img.indexOf(searchStr);
+        if (index != -1) {
+            var add_text = '_150x150';
+            var new_url = url_img.slice(0,index) + add_text + url_img.slice(index);
+            return new_url;
+        } else {
+            return url_img;
+        }
+    });
+
     return (
         <section className={style.section}>
             <div className={style.header}>
@@ -43,7 +55,7 @@ export default function ExampleList3CSV() {
                             >
                                 
                                 <img  
-                                    src={item.link_img}
+                                    src={tryRequestImgWidth150px(item.link_img)}
                                     onError={({ currentTarget }) => {
                                         currentTarget.onerror = null; // prevents looping
                                         currentTarget.src=icon_discount;

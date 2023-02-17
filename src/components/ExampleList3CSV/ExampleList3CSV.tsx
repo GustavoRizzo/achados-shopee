@@ -34,9 +34,9 @@ export default function ExampleList3CSV() {
                 <h1>VEJA OS PRODUTOS MAIS QUANTES 😎🔥</h1>
             </div>
 
-            <form className={style.search_bar}>
+            <div className={style.search_bar}>
                 <input type="search" placeholder="Busque Pelo Nome ou #9999" onChange={event => setQuery(event.target.value)}/>
-            </form>
+            </div>
 
             <motion.div className={style.grid_cards}>
                 <AnimatePresence>

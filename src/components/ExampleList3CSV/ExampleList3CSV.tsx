@@ -13,7 +13,7 @@ export default function ExampleList3CSV() {
     const [query, setQuery] = useState("");
 
     const formatingTitleProduct = ((product:IProduto) =>{
-        return `${product.id} ${product.Produto}`;
+        return `#${product.id} ${product.Produto}`;
     });
 
     const tryRequestImgWidth150px = ((url_img:string) => {

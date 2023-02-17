@@ -1,5 +1,5 @@
 export interface IProduto {
-    id: string;
+    id: number;
     Produto: string;
     Status: string;
     Data: string;

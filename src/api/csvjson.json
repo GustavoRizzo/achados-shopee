@@ -1,6 +1,6 @@
 [
   {
-    "id": "#1",
+    "id": 1,
     "Produto": "Palmilha Ortopédica 3D em Gel",
     "Status": "4- Postado",
     "Data": "07/02/2023",
@@ -8,11 +8,10 @@
     "Link_Afiliado_1": "https://shope.ee/cY4hG6Rn",
     "Link_Afiliado_2": "https://shope.ee/9UTdOBsBu4",
     "link_img": "https://cf.shopee.com.br/file/078d84d90273fca8342fc0eafd2862db",
-    "Prioridade": 1,
-    "Ordem": 1
+    "Prioridade": 1
   },
   {
-    "id": "#2",
+    "id": 2,
     "Produto": "Trem de Dominó Educacional",
     "Status": "4- Postado",
     "Data": "07/02/2023",
@@ -20,11 +19,10 @@
     "Link_Afiliado_1": "https://shope.ee/8Ub6CO82sa",
     "Link_Afiliado_2": "https://shope.ee/3Kt02uEWXs",
     "link_img": "https://cf.shopee.com.br/file/938b6cbf436a450ce326fdfc72bb52ad",
-    "Prioridade": 1,
-    "Ordem": 2
+    "Prioridade": 1
   },
   {
-    "id": "#3",
+    "id": 3,
     "Produto": "Óculos de sol Multicor 6 em 1",
     "Status": "4- Postado",
     "Data": "07/02/2023",
@@ -32,11 +30,10 @@
     "Link_Afiliado_1": "https://shope.ee/4AS72SbCym",
     "Link_Afiliado_2": "https://shope.ee/8zXMnM0bD6",
     "link_img": "https://cf.shopee.com.br/file/ce272c30b4a99470a66cefbd6971e95d",
-    "Prioridade": 1,
-    "Ordem": 3
+    "Prioridade": 1
   },
   {
-    "id": "#4",
+    "id": 4,
     "Produto": "Auxiliar de Sono e Anti-Ronco",
     "Status": "4- Postado",
     "Data": "08/02/2023",
@@ -44,11 +41,10 @@
     "Link_Afiliado_1": "https://shope.ee/3VCQFGhTYA",
     "Link_Afiliado_2": "https://shope.ee/6pSsDP82WH",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa.jpg?v=1676591242",
-    "Prioridade": 1,
-    "Ordem": 4
+    "Prioridade": 1
   },
   {
-    "id": "#5",
+    "id": 5,
     "Produto": "Desentupidor de Encanamentos",
     "Status": "4- Postado",
     "Data": "08/02/2023",
@@ -56,11 +52,10 @@
     "Link_Afiliado_1": "https://shope.ee/VYofmRYKR",
     "Link_Afiliado_2": "https://shope.ee/3VCQFJ2Wqe",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa.webp?v=1676591261",
-    "Prioridade": 1,
-    "Ordem": 5
+    "Prioridade": 1
   },
   {
-    "id": "#6",
+    "id": 6,
     "Produto": "Luz de Freio Inteligente",
     "Status": "4- Postado",
     "Data": "08/02/2023",
@@ -68,11 +63,10 @@
     "Link_Afiliado_1": "https://shope.ee/4KlXEqul7M",
     "Link_Afiliado_2": "https://shope.ee/1fkm3xiN2u",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_78b63560-6532-40dd-a53b-37627055df04.jpg?v=1676591286",
-    "Prioridade": 1,
-    "Ordem": 6
+    "Prioridade": 1
   },
   {
-    "id": "#7",
+    "id": 7,
     "Produto": "Protetor de Ralo de Silicone",
     "Status": "4- Postado",
     "Data": "09/02/2023",
@@ -80,11 +74,10 @@
     "Link_Afiliado_1": "https://shope.ee/10V5Gl2F0c",
     "Link_Afiliado_2": "https://shope.ee/3VCQFMaaEj",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_bb0cc32f-b3aa-421c-bc27-b1577510b8d9.jpg?v=1676593557",
-    "Prioridade": 1,
-    "Ordem": 7
+    "Prioridade": 1
   },
   {
-    "id": "#8",
+    "id": 8,
     "Produto": "Aliviador de Tensões para a Mão",
     "Status": "4- Postado",
     "Data": "09/02/2023",
@@ -92,11 +85,10 @@
     "Link_Afiliado_1": "https://shope.ee/AvyHGDCO8",
     "Link_Afiliado_2": "https://shope.ee/5AKeEScEKX",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_d5cb265e-aa2b-4377-8426-ad3090666046.jpg?v=1676593563",
-    "Prioridade": 1,
-    "Ordem": 8
+    "Prioridade": 1
   },
   {
-    "id": "#9",
+    "id": 9,
     "Produto": "Carteira Antifurto com RFID",
     "Status": "4- Postado",
     "Data": "09/02/2023",
@@ -104,11 +96,10 @@
     "Link_Afiliado_1": "https://shope.ee/408gqNRVrN",
     "Link_Afiliado_2": "https://shope.ee/7KP8oUJcvJ",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_1df3d647-187c-41c5-a495-a02bc56a1169.jpg?v=1676593574",
-    "Prioridade": 1,
-    "Ordem": 9
+    "Prioridade": 1
   },
   {
-    "id": "#10",
+    "id": 10,
     "Produto": "Escova Alisadora",
     "Status": "4- Postado",
     "Data": "10/02/2023",
@@ -116,11 +107,10 @@
     "Link_Afiliado_1": "https://shope.ee/fsEsGrLEs",
     "Link_Afiliado_2": "https://shope.ee/1VRLroVtK6",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_289fcb9e-8e9d-4b67-a16a-e194db8c090e.jpg?v=1676593587",
-    "Prioridade": 1,
-    "Ordem": 10
+    "Prioridade": 1
   },
   {
-    "id": "#11",
+    "id": 11,
     "Produto": "Smartwatch Iwo 16 Ultra",
     "Status": "4- Postado",
     "Data": "10/02/2023",
@@ -128,11 +118,10 @@
     "Link_Afiliado_1": "https://shope.ee/6ADBQPnGNh",
     "Link_Afiliado_2": "https://shope.ee/AvyHOwQts",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_daddafe7-365d-4dba-89a0-3ed0ff30655a.jpg?v=1676593601",
-    "Prioridade": 1,
-    "Ordem": 11
+    "Prioridade": 1
   },
   {
-    "id": "#12",
+    "id": 12,
     "Produto": "Creme de Bronzeamento - ShineBrown",
     "Status": "4- Postado",
     "Data": "10/02/2023",
@@ -140,11 +129,10 @@
     "Link_Afiliado_1": "https://shope.ee/1fkm4CBqPx",
     "Link_Afiliado_2": "https://shope.ee/7UiZ0vTIsz",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa.png?v=1676593662",
-    "Prioridade": 1,
-    "Ordem": 12
+    "Prioridade": 1
   },
   {
-    "id": "#13",
+    "id": 13,
     "Produto": "Conjunto Tornozeleira Verão (6 peças)",
     "Status": "4- Postado",
     "Data": "11/02/2023",
@@ -152,11 +140,10 @@
     "Link_Afiliado_1": "https://shope.ee/10V5H1ZEoK",
     "Link_Afiliado_2": "https://shope.ee/AK2ny6gZ6m",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/7fd7d265-c7c4-4c9c-8c32-e147c3aa93b5_ff770826-d0f2-4489-8ae8-5f2c21744383.jpg?v=1676593681",
-    "Prioridade": 1,
-    "Ordem": 13
+    "Prioridade": 1
   },
   {
-    "id": "#14",
+    "id": 14,
     "Produto": "Robô Aspirador",
     "Status": "4- Postado",
     "Data": "11/02/2023",
@@ -164,11 +151,10 @@
     "Link_Afiliado_1": "https://shope.ee/6KWbctZ2fo",
     "Link_Afiliado_2": "https://shope.ee/7pLPPf2sCb",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_2e4abdc5-6b77-4e85-837c-045ad259ead0.jpg?v=1676593698",
-    "Prioridade": 1,
-    "Ordem": 14
+    "Prioridade": 1
   },
   {
-    "id": "#15",
+    "id": 15,
     "Produto": "Fones de ouvido air pro",
     "Status": "4- Postado",
     "Data": "11/02/2023",
@@ -176,11 +162,10 @@
     "Link_Afiliado_1": "https://shope.ee/4KlXFGAZrG",
     "Link_Afiliado_2": "https://shope.ee/7A5icTmFyk",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_6ca20b77-624c-4657-beb7-912c1228ee9f.jpg?v=1676593710",
-    "Prioridade": 1,
-    "Ordem": 15
+    "Prioridade": 1
   },
   {
-    "id": "#16",
+    "id": 16,
     "Produto": "Massageador e Esfoliante para o Banho",
     "Status": "4- Postado",
     "Data": "13/02/2023",
@@ -188,11 +173,10 @@
     "Link_Afiliado_1": "https://shope.ee/7pLPPifBqb",
     "Link_Afiliado_2": "https://shope.ee/5AKeEq2Cp6",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_73a39e76-a946-42c0-8381-75fadd3739ab.jpg?v=1676593809",
-    "Prioridade": 1,
-    "Ordem": 16
+    "Prioridade": 1
   },
   {
-    "id": "#17",
+    "id": 17,
     "Produto": "Super Game Stick Retro",
     "Status": "4- Postado",
     "Data": "13/02/2023",
@@ -200,11 +184,10 @@
     "Link_Afiliado_1": "https://shope.ee/99qn0IswxV",
     "Link_Afiliado_2": "https://shope.ee/6f9S1ikX7R",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_4fbfee0c-05e7-4df1-b6d0-a900288c27e9.jpg?v=1676593819",
-    "Prioridade": 1,
-    "Ordem": 17
+    "Prioridade": 1
   },
   {
-    "id": "#18",
+    "id": 18,
     "Produto": "Saboneteira com Ventosa",
     "Status": "4- Postado",
     "Data": "13/02/2023",
@@ -212,11 +195,10 @@
     "Link_Afiliado_1": "https://shope.ee/5AKeEylRKs",
     "Link_Afiliado_2": "https://shope.ee/6Uq1pTrwGn",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_007994e1-fd9f-4973-a54b-593f9f93654c.jpg?v=1676593830",
-    "Prioridade": 1,
-    "Ordem": 18
+    "Prioridade": 1
   },
   {
-    "id": "#19",
+    "id": 19,
     "Produto": "Porta Fio Dental",
     "Status": "4- Postado",
     "Data": "14/02/2023",
@@ -224,11 +206,10 @@
     "Link_Afiliado_1": "https://shope.ee/6f9c8xM08G",
     "Link_Afiliado_2": "https://shope.ee/5UxekpLZPU",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_90dc1eea-2ef6-4e22-a746-0ac05faabb86.jpg?v=1676593841",
-    "Prioridade": 1,
-    "Ordem": 19
+    "Prioridade": 1
   },
   {
-    "id": "#20",
+    "id": 20,
     "Produto": "Taça Flor",
     "Status": "4- Postado",
     "Data": "14/02/2023",
@@ -236,11 +217,10 @@
     "Link_Afiliado_1": "https://shope.ee/6zmSXbtOfw",
     "Link_Afiliado_2": "https://shope.ee/8UbGKNVgSO",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_3e8380a7-b6ae-4636-acaa-68445bca2e05.jpg?v=1676593852",
-    "Prioridade": 1,
-    "Ordem": 20
+    "Prioridade": 1
   },
   {
-    "id": "#21",
+    "id": 21,
     "Produto": "Desentupidor de Vaso Pressurizado",
     "Status": "4- Postado",
     "Data": "14/02/2023",
@@ -248,11 +228,10 @@
     "Link_Afiliado_1": "https://shope.ee/9zQ47AKpnt",
     "Link_Afiliado_2": "https://shope.ee/8pE6j22Sdo",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_5ff34b96-a4d2-453b-8fa1-3a8f01d94066.jpg?v=1676593863",
-    "Prioridade": 1,
-    "Ordem": 21
+    "Prioridade": 1
   },
   {
-    "id": "#22",
+    "id": 22,
     "Produto": "Brinquedos De Banho De Bebê",
     "Status": "",
     "Data": "",
@@ -260,11 +239,10 @@
     "Link_Afiliado_1": "https://shope.ee/8zXMo3EN4j",
     "Link_Afiliado_2": "https://shope.ee/2fdJGQ7LfT",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_33f941a1-adf1-40e4-8138-021ef4581ec3.jpg?v=1676593875",
-    "Prioridade": 1,
-    "Ordem": 22
+    "Prioridade": 1
   },
   {
-    "id": "#23",
+    "id": 23,
     "Produto": "Máscara Hidratante de Colágeno",
     "Status": "",
     "Data": "",
@@ -272,11 +250,10 @@
     "Link_Afiliado_1": "https://shope.ee/2Ah2fXLZg0",
     "Link_Afiliado_2": "https://shope.ee/2pwjSlnhHF",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa2.jpg?v=1676593969",
-    "Prioridade": 1,
-    "Ordem": 23
+    "Prioridade": 1
   },
   {
-    "id": "#24",
+    "id": 24,
     "Produto": "Removedor de Pelos Maquina de Lavar",
     "Status": "",
     "Data": "",
@@ -284,11 +261,10 @@
     "Link_Afiliado_1": "https://shope.ee/3ppGecwkoS",
     "Link_Afiliado_2": "https://shope.ee/8euWPWDYGZ",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_a96faaa9-4858-40f4-a586-76b203492fff.jpg?v=1676593975",
-    "Prioridade": 1,
-    "Ordem": 24
+    "Prioridade": 1
   },
   {
-    "id": "#25",
+    "id": 25,
     "Produto": "Trava de Motocicleta- All Lock",
     "Status": "",
     "Data": "",
@@ -296,11 +272,10 @@
     "Link_Afiliado_1": "https://shope.ee/6zmIQTJ9I8",
     "Link_Afiliado_2": "https://shope.ee/2pwjSp8YJw",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_c9e7336d-389e-4fc6-84da-5aa692818d1e.jpg?v=1676593985",
-    "Prioridade": 1,
-    "Ordem": 25
+    "Prioridade": 1
   },
   {
-    "id": "#26",
+    "id": 26,
     "Produto": "Scanner Automotivo OBD2 ELM327",
     "Status": "",
     "Data": "",
@@ -308,11 +283,10 @@
     "Link_Afiliado_1": "https://shope.ee/4fONeD5V4a",
     "Link_Afiliado_2": "https://shope.ee/AK2kOdASnK",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_a3437280-ef87-4783-a6f9-4f84e83dc8b7.jpg?v=1676593998",
-    "Prioridade": "",
-    "Ordem": 26
+    "Prioridade": ""
   },
   {
-    "id": "#27",
+    "id": 27,
     "Produto": "Rejuvenecedor de Olhos",
     "Status": "",
     "Data": "",
@@ -320,11 +294,10 @@
     "Link_Afiliado_1": "https://shope.ee/99qwpUcTa5",
     "Link_Afiliado_2": "https://shope.ee/Aw86y5w14",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_163f1ca6-ecb6-4894-89b3-f560f0edb303.jpg?v=1676594011",
-    "Prioridade": "",
-    "Ordem": 27
+    "Prioridade": ""
   },
   {
-    "id": "#28",
+    "id": 28,
     "Produto": "Tonificador Maxilar",
     "Status": "",
     "Data": "",
@@ -332,11 +305,10 @@
     "Link_Afiliado_1": "https://shope.ee/4AS73MAOTg",
     "Link_Afiliado_2": "https://shope.ee/cY5hzJfU",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_20cdae07-9feb-41ff-8e9c-3bfb1208d4aa.jpg?v=1676594025",
-    "Prioridade": "",
-    "Ordem": 28
+    "Prioridade": ""
   },
   {
-    "id": "#29",
+    "id": 29,
     "Produto": "Cortador de Batata Espiral",
     "Status": "",
     "Data": "",
@@ -344,11 +316,10 @@
     "Link_Afiliado_1": "https://shope.ee/20NcTOiZGK",
     "Link_Afiliado_2": "https://shope.ee/4AS73O0IzK",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_52f42609-4496-48df-8809-4641d63ca9a4.jpg?v=1676594042",
-    "Prioridade": "",
-    "Ordem": 29
+    "Prioridade": ""
   },
   {
-    "id": "#30",
+    "id": 30,
     "Produto": "Adesivo Invisível Facial",
     "Status": "",
     "Data": "",
@@ -356,11 +327,10 @@
     "Link_Afiliado_1": "https://shope.ee/AUMAb2TKq0",
     "Link_Afiliado_2": "https://shope.ee/1q4CH7Uqqv",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_705a05cd-7b08-4c1d-a3bb-cdc4d395bd8c.jpg?v=1676594056",
-    "Prioridade": "",
-    "Ordem": 30
+    "Prioridade": ""
   },
   {
-    "id": "#31",
+    "id": 31,
     "Produto": "Protetor de Dedos de Aço Inoxidável",
     "Status": "",
     "Data": "",
@@ -368,11 +338,10 @@
     "Link_Afiliado_1": "https://shope.ee/1L7vgDjTuL",
     "Link_Afiliado_2": "https://shope.ee/qBf5JTj3h",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_3143b973-c9ce-48b5-a485-cace6878e977.jpg?v=1676594143",
-    "Prioridade": "",
-    "Ordem": 31
+    "Prioridade": ""
   },
   {
-    "id": "#32",
+    "id": 32,
     "Produto": "Pedras Luminosas e Brilhantes",
     "Status": "",
     "Data": "",
@@ -380,11 +349,10 @@
     "Link_Afiliado_1": "https://shope.ee/6ADBR88k93",
     "Link_Afiliado_2": "https://shope.ee/3ppGeqvdUe",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_434d58e7-ae97-4c59-8fe2-d3e5207659ba.jpg?v=1676594147",
-    "Prioridade": "",
-    "Ordem": 32
+    "Prioridade": ""
   },
   {
-    "id": "#33",
+    "id": 33,
     "Produto": "Luminária Magnética Inteligente",
     "Status": "",
     "Data": "",
@@ -392,11 +360,10 @@
     "Link_Afiliado_1": "https://shope.ee/5Ke4ReJmJV",
     "Link_Afiliado_2": "https://shope.ee/5ztlEsuyWm",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_297d5e11-4b6d-4b8f-84ec-216958869016.png?v=1676594160",
-    "Prioridade": "",
-    "Ordem": 33
+    "Prioridade": ""
   },
   {
-    "id": "#34",
+    "id": 34,
     "Produto": "Relógio Feminino Com Pulseira De Diamante",
     "Status": "",
     "Data": "",
@@ -404,11 +371,10 @@
     "Link_Afiliado_1": "https://shope.ee/LFOUUKKyf",
     "Link_Afiliado_2": "https://shope.ee/5fGuqJD2FE",
     "link_img": "https://cdn.shopify.com/s/files/1/0658/7921/2261/files/Capa_9289316d-15ae-417b-9798-4b2d3a515f4a.jpg?v=1676594177",
-    "Prioridade": "",
-    "Ordem": 34
+    "Prioridade": ""
   },
   {
-    "id": "#35",
+    "id": 35,
     "Produto": "Massageador Elétrico Fisioterápico",
     "Status": "",
     "Data": "",
@@ -416,11 +382,10 @@
     "Link_Afiliado_1": "https://shope.ee/fsEtBCRVb",
     "Link_Afiliado_2": "https://shope.ee/2L0SsFk2To",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 35
+    "Prioridade": ""
   },
   {
-    "id": "#36",
+    "id": 36,
     "Produto": "Adesivo Anti-Rugas (Varias Peças)",
     "Status": "",
     "Data": "",
@@ -428,11 +393,10 @@
     "Link_Afiliado_1": "https://shope.ee/5AKeFTuurS",
     "Link_Afiliado_2": "https://shope.ee/6ADBRKLq2y",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 36
+    "Prioridade": ""
   },
   {
-    "id": "#37",
+    "id": 37,
     "Produto": "Saco de Dormir para Bebê",
     "Status": "",
     "Data": "",
@@ -440,11 +404,10 @@
     "Link_Afiliado_1": "https://shope.ee/7f1zE66mry",
     "Link_Afiliado_2": "https://shope.ee/8euWPwXz6W",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 37
+    "Prioridade": ""
   },
   {
-    "id": "#38",
+    "id": 38,
     "Produto": "Banana Escova de Dente",
     "Status": "",
     "Data": "",
@@ -452,11 +415,10 @@
     "Link_Afiliado_1": "https://shope.ee/1AoVUAmWMC",
     "Link_Afiliado_2": "https://shope.ee/1q4CHPJWZl",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 38
+    "Prioridade": ""
   },
   {
-    "id": "#39",
+    "id": 39,
     "Produto": "Anel Feng Shui Pixiu",
     "Status": "",
     "Data": "",
@@ -464,11 +426,10 @@
     "Link_Afiliado_1": "https://shope.ee/4V4xSK8YXx",
     "Link_Afiliado_2": "https://shope.ee/7UiZ1qSCzA",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 39
+    "Prioridade": ""
   },
   {
-    "id": "#40",
+    "id": 40,
     "Produto": "Camisa Modeladora de Compressão",
     "Status": "",
     "Data": "",
@@ -476,11 +437,10 @@
     "Link_Afiliado_1": "https://shope.ee/fsEtIncoK",
     "Link_Afiliado_2": "https://shope.ee/5Ke4Rt0eoq",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 40
+    "Prioridade": ""
   },
   {
-    "id": "#41",
+    "id": 41,
     "Produto": "Chinelo Comfort Nuvem",
     "Status": "",
     "Data": "",
@@ -488,11 +448,10 @@
     "Link_Afiliado_1": "https://shope.ee/3VCQGWpdMg",
     "Link_Afiliado_2": "https://shope.ee/5AKeFbI0PM",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 41
+    "Prioridade": ""
   },
   {
-    "id": "#42",
+    "id": 42,
     "Produto": "Relógio Repelente Infantil",
     "Status": "",
     "Data": "",
@@ -500,11 +459,10 @@
     "Link_Afiliado_1": "https://shope.ee/6KWbdl0EhE",
     "Link_Afiliado_2": "https://shope.ee/A9jKCoGZvD",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 42
+    "Prioridade": ""
   },
   {
-    "id": "#43",
+    "id": 43,
     "Produto": "Mini Máquina Seladora",
     "Status": "",
     "Data": "",
@@ -512,11 +470,10 @@
     "Link_Afiliado_1": "https://shope.ee/3AZZrxXszS",
     "Link_Afiliado_2": "https://shope.ee/7zepcqogRU",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 43
+    "Prioridade": ""
   },
   {
-    "id": "#44",
+    "id": 44,
     "Produto": "Adesivo Detox",
     "Status": "",
     "Data": "",
@@ -524,11 +481,10 @@
     "Link_Afiliado_1": "https://shope.ee/2fdJH3mNWa",
     "Link_Afiliado_2": "https://shope.ee/AUMAbSw5PE",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 44
+    "Prioridade": ""
   },
   {
-    "id": "#45",
+    "id": 45,
     "Produto": "Mochila Anti-Furto com Senha USB",
     "Status": "",
     "Data": "",
@@ -536,11 +492,10 @@
     "Link_Afiliado_1": "https://shope.ee/7A5idM3yLJ",
     "Link_Afiliado_2": "https://shope.ee/8euWQ7l4Tq",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 45
+    "Prioridade": ""
   },
   {
-    "id": "#46",
+    "id": 46,
     "Produto": "Derol Silky | Hidratante Multi Balm",
     "Status": "",
     "Data": "",
@@ -548,11 +503,10 @@
     "Link_Afiliado_1": "https://shope.ee/2fdJH77RLd",
     "Link_Afiliado_2": "https://shope.ee/qBf5ket1d",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 46
+    "Prioridade": ""
   },
   {
-    "id": "#47",
+    "id": 47,
     "Produto": "Faca Ondulada",
     "Status": "",
     "Data": "",
@@ -560,11 +514,10 @@
     "Link_Afiliado_1": "https://shope.ee/5Ke4S21Lw8",
     "Link_Afiliado_2": "https://shope.ee/8Ub6DrJgPo",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 47
+    "Prioridade": ""
   },
   {
-    "id": "#48",
+    "id": 48,
     "Produto": "Tratamento Para Unhas",
     "Status": "",
     "Data": "",
@@ -572,11 +525,10 @@
     "Link_Afiliado_1": "https://shope.ee/6zmIR7L0Cr",
     "Link_Afiliado_2": "https://shope.ee/1fkm5KEZY8",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 48
+    "Prioridade": ""
   },
   {
-    "id": "#49",
+    "id": 49,
     "Produto": "Ventilador de Pescoço Portátil",
     "Status": "",
     "Data": "",
@@ -584,11 +536,10 @@
     "Link_Afiliado_1": "https://shope.ee/9zPu0edYyj",
     "Link_Afiliado_2": "https://shope.ee/20NcTxhYmX",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 49
+    "Prioridade": ""
   },
   {
-    "id": "#50",
+    "id": 50,
     "Produto": "Esponja Magica",
     "Status": "",
     "Data": "",
@@ -596,11 +547,10 @@
     "Link_Afiliado_1": "https://shope.ee/6f9S2YGFOK",
     "Link_Afiliado_2": "https://shope.ee/1fkm5MzkUw",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 50
+    "Prioridade": ""
   },
   {
-    "id": "#51",
+    "id": 51,
     "Produto": "Mini Drone UFO Inteligente",
     "Status": "",
     "Data": "",
@@ -608,11 +558,10 @@
     "Link_Afiliado_1": "https://shope.ee/9p6ToOHKa4",
     "Link_Afiliado_2": "https://shope.ee/2pwjTXHB30",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 51
+    "Prioridade": ""
   },
   {
-    "id": "#52",
+    "id": 52,
     "Produto": "Removedor de Fiapos Portátil",
     "Status": "",
     "Data": "",
@@ -620,11 +569,10 @@
     "Link_Afiliado_1": "https://shope.ee/5AKeFpyoeP",
     "Link_Afiliado_2": "https://shope.ee/5fGuqlaRPz",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 52
+    "Prioridade": ""
   },
   {
-    "id": "#53",
+    "id": 53,
     "Produto": "Adesivo Detox Pé",
     "Status": "",
     "Data": "",
@@ -632,7 +580,6 @@
     "Link_Afiliado_1": "https://shope.ee/5ztlFOQFBA",
     "Link_Afiliado_2": "https://shope.ee/cY6NQgOe",
     "link_img": "",
-    "Prioridade": "",
-    "Ordem": 53
+    "Prioridade": ""
   }
 ]

@@ -31,9 +31,12 @@ export default function ExampleList3CSV() {
     return (
         <section className={style.section}>
             <div className={style.header}>
-                <h1>Todos os Produtos</h1>
-                <input placeholder='Busque Pelo Produto' onChange={event => setQuery(event.target.value)} />
+                <h1>VEJA OS PRODUTOS MAIS QUANTES 😎🔥</h1>
             </div>
+
+            <form className={style.search_bar}>
+                <input type="search" placeholder="Busque Pelo Nome ou #9999" onChange={event => setQuery(event.target.value)}/>
+            </form>
 
             <motion.div className={style.grid_cards}>
                 <AnimatePresence>
@@ -42,7 +45,7 @@ export default function ExampleList3CSV() {
                             if (query.toLowerCase() === '')
                                 return item    // se busca vazia, retorna todos os resultados
                             else {
-                                const fields_that_should_be_searched = `${item.id} ${item.Produto}`; // junta os campos que devem ser pesquisados
+                                const fields_that_should_be_searched = formatingTitleProduct(item);
                                 const isMatch = new RegExp(query, 'ig').test(fields_that_should_be_searched);
                                 return isMatch ? item : null ;
                             }

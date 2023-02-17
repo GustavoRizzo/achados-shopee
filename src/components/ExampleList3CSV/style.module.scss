@@ -10,7 +10,7 @@
 
 .header {
     h1 {
-        font-size: 3rem;
+        font-size: 2.2rem;
         margin: 1rem 0;
     }
 }
@@ -20,66 +20,116 @@
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 1rem;
     margin: 1rem 5%;
-}
 
-.card {
-    background-color: var(--background-color-card);
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: rgb(197 197 197) 5px 5px 5px;
-    //box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
-    text-align: initial;
-
-    img {
-        display: block;
-        width: 100%;
-        aspect-ratio: 1/1;
-        background-color: rgb(255, 102, 51, .4);
-        opacity: .9;
-    }
-
-    .title {
-        -webkit-line-clamp: 2;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
+    .card {
+        background-color: var(--background-color-card);
         overflow: hidden;
-        margin: 8px;
-    }
+        border-radius: 10px;
+        box-shadow: rgb(197 197 197) 5px 5px 5px;
+        //box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+        text-align: initial;
 
-    .card__bottom {
-        display: grid;
-        align-items: center;
-        padding: 8px;
-        gap: 5px;
+        img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 1/1;
+            background-color: rgb(255, 102, 51, .4);
+            opacity: .9;
+        }
 
-        .text_price {
-            display: flex;
+        .title {
+            -webkit-line-clamp: 2;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin: 8px;
+        }
+
+        .card__bottom {
+            display: grid;
             align-items: center;
-            color: var(--color-price);
-            padding-bottom: 8px;
+            padding: 8px;
+            gap: 5px;
 
-            &__preprice {
-                font-size: 12px;
-                margin-right: 3px;
-                ;
+            .text_price {
+                display: flex;
+                align-items: center;
+                color: var(--color-price);
+                padding-bottom: 8px;
+
+                &__preprice {
+                    font-size: 12px;
+                    margin-right: 3px;
+                    ;
+                }
+
+                &__price {
+
+                    font-weight: 600;
+                }
             }
 
-            &__price {
-
-                font-weight: 600;
+            .link {
+                border-radius: 7px;
+                padding: 8px 0;
+                font-size: 0.9rem;
+                text-align: center;
             }
-        }
-
-        .link {
-            border-radius: 7px;
-            padding: 5px;
-            font-size: 0.9rem;
-            text-align: center;
         }
     }
+
 }
 
 .color_shoppe {
-    background: linear-gradient(-180deg,#f53d2d,#f63);
-    color:#FFFFFF;
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+    color: #FFFFFF;
+}
+
+
+
+
+.search_bar {
+    margin: 15px 0;
+
+    input {
+        outline: none;
+        color: purple;
+    }
+
+    input[type=search] {
+        appearance: textfield;
+        box-sizing: content-box;
+        font-family: inherit;
+        font-size: 100%;
+    }
+
+    input::-webkit-search-decoration,
+    input::-webkit-search-cancel-button {
+        display: none;
+    }
+
+    input[type=search] {
+        padding: 9px 10px 9px 32px;
+        width: 210px;
+        background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+        border: solid 1px #ccc;
+
+        -webkit-border-radius: 10em;
+        -moz-border-radius: 10em;
+        border-radius: 10em;
+
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+    }
+
+    input[type=search]:focus {
+        width: 250px;
+        background-color: #fff;
+        border-color: #66CC75;
+
+        -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+        -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+        box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    }
 }
